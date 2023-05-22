@@ -1,0 +1,15 @@
+{
+    "name": "新闻资讯",
+    "version": "v1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "cl-uni": "^1.8.7"
+    },
+    "id": "cool-news",
+    "description": "新闻资讯",
+    "keywords": [
+        "新闻",
+        "资讯"
+    ]
+}

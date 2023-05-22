@@ -1,0 +1,186 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/index",
+			"pages": [
+				{
+					"path": "home",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "video",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "recom",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "my",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/login",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "register",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/search",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "搜索"
+					}
+				},{
+					"path": "article",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "文章管理"
+					}
+				},{
+					"path": "comment",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "评论管理"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/news",
+			"pages": [
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "新闻详情"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/publish",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},{
+					"path": "type",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/message",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "我的消息"
+					}
+				},{
+					"path": "info",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "私信"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/xiaoSi",
+			"pages": [
+				{
+					"path": "xiaoSi",
+					"style": {
+						"navigationBarBackgroundColor": "#F95859",
+						"navigationBarTextStyle": "white",
+						"navigationBarTitleText": "智能客服"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uPage",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"cl-(.*)": "cl-uni/components/cl-$1/cl-$1.vue"
+		},
+		"dl-(.*)": "cl-uni/components/dl-$1/index.vue"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"color": "#333333",
+		"selectedColor": "#F95859",
+		"list": [
+			{
+				"pagePath": "pages/index/home",
+				"iconPath": "static/icon/tabbar/home.png",
+				"selectedIconPath": "static/icon/tabbar/on-home.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "static/icon/tabbar/message.png",
+				"selectedIconPath": "static/icon/tabbar/on-message.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/index/my",
+				"iconPath": "static/icon/tabbar/my.png",
+				"selectedIconPath": "static/icon/tabbar/on-my.png",
+				"text": "我的"
+			}
+		]
+	}
+}
